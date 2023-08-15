@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7913EDFD-7B1D-4FC6-A331-9EE731324D6E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Practicee</RootNamespace>
+    <AssemblyName>Practicee</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Practicee.String_First_Last_Sum</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account.cs" />
+    <Compile Include="Amstrong.cs" />
+    <Compile Include="ArrayReverse.cs" />
+    <Compile Include="ArraySort.cs" />
+    <Compile Include="ArraySort2.cs" />
+    <Compile Include="Array_Alternate.cs" />
+    <Compile Include="Array_Character_Toggle.cs" />
+    <Compile Include="Array_Even_oddArray.cs" />
+    <Compile Include="Array_Even_Sum.cs" />
+    <Compile Include="Array_Merge.cs" />
+    <Compile Include="Array_Min_Char.cs" />
+    <Compile Include="Array_Odd_Sum.cs" />
+    <Compile Include="Array_Prime.cs" />
+    <Compile Include="Array_Prime_Method.cs" />
+    <Compile Include="Array_Reverse.cs" />
+    <Compile Include="Array_Search.cs" />
+    <Compile Include="Array_Toggle_Method.cs" />
+    <Compile Include="Array_Zero_Shift.cs" />
+    <Compile Include="Binaery_Digit_Sum.cs" />
+    <Compile Include="Char_Plus_2.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="CoPrime.cs" />
+    <Compile Include="Decimal_To_binary.cs" />
+    <Compile Include="Dictonary_Frequency.cs" />
+    <Compile Include="Disarium.cs" />
+    <Compile Include="Disarium_Number.cs" />
+    <Compile Include="Duck.cs" />
+    <Compile Include="Employee_List.cs" />
+    <Compile Include="Exponential.cs" />
+    <Compile Include="FAciliting_Number.cs" />
+    <Compile Include="frequency_of_Array.cs" />
+    <Compile Include="HashSet_List.cs" />
+    <Compile Include="KM_Number.cs" />
+    <Compile Include="ListFrequency.cs" />
+    <Compile Include="NPrime_Number.cs" />
+    <Compile Include="Num_frequency.cs" />
+    <Compile Include="PrimeDigit.cs" />
+    <Compile Include="Prime_Avg.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Spy_Number.cs" />
+    <Compile Include="StringInitial.cs" />
+    <Compile Include="StringReverse2.cs" />
+    <Compile Include="StringRevrse.cs" />
+    <Compile Include="StringSplit.cs" />
+    <Compile Include="Avg_Of_Even_Digits.cs" />
+    <Compile Include="StringWord_Frequency.cs" />
+    <Compile Include="String_First_Last_Sum.cs" />
+    <Compile Include="String_Frequency.cs" />
+    <Compile Include="String_Reverse.cs" />
+    <Compile Include="SumOf_firstAndLAst.cs" />
+    <Compile Include="Sum_Of_Factorial.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
